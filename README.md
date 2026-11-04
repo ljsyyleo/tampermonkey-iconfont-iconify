@@ -28,3 +28,22 @@ This script is designed for use with the iconfont.cn website, and may not work o
 ## Contribution
 
 If you have any suggestions for improvements or find any bugs, please feel free to open an issue or pull request on Github repository.
+
+Tampermonkey脚本源代码：
+
+// ==UserScript==
+// @name         Iconfont React
+// @version      1.0.3
+// @description  下载 React ICON 组件
+// @author       ljsyyleo
+// @include      https://*.iconfont.cn/*
+// @require      http://cdn.bootcss.com/jquery/1.12.4/jquery.min.js
+// @updateURL    https://github.com/ljsyyleo/tampermonkey-iconfont-iconify/raw/main/index.user.js
+// @downloadURL  https://github.com/ljsyyleo/tampermonkey-iconfont-iconify/raw/main/index.user.js
+// @require  	 https://github.com/ljsyyleo/tampermonkey-iconfont-iconify/raw/main/dist/main.js
+// @grant        unsafeWindow
+// @connect      *
+// ==/UserScript==
+
+iconfontRunMain();
+
